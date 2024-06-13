@@ -1,4 +1,6 @@
-import sqlite3
+# lib/models/__init__.py
 
-CONN = sqlite3.connect('company.db')
-CURSOR = CONN.cursor()
+from .recipe import Recipe
+# from .origin import Origin
+# from .ingredient import Ingredient
+# from .dietary_restriction import DietaryRestriction
